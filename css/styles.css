@@ -56,7 +56,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%; }
+  width: 90%;
+  margin: auto; }
   .grid__col--12 .btn--default {
     background-color: #61D8ED; }
   .grid__col--12 .btn--success {
@@ -157,7 +158,7 @@ input {
 .img--logo {
   display: block;
   margin: auto;
-  margin-top: 3em; }
+  margin-top: 2.5em; }
 
 .img--avatar {
   display: block;
@@ -200,8 +201,9 @@ ul, menu, dir {
   .nav {
     display: flex;
     flex-direction: row;
-    margin-top: 4em; }
+    margin-top: 4em;
+    width: 80%; }
     .nav a {
-      padding: 10px; } }
+      padding: 9px 20px; } }
 
 /*# sourceMappingURL=styles.css.map */

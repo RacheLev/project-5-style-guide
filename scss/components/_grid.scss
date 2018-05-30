@@ -26,20 +26,22 @@
   }
 }
 .theme__colors.grid {
-@include grid-colors($grid-colors);
+  @include grid-colors($grid-colors);
 }
 
 .grid__row{
   @include mq(medium){
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
  }
 }
+
 .grid__col--8{
   @include mq(medium){
   width: 60%;
  }
 }
+
 .theme__colors.grid__col--12{
   flex-basis: 100%;
 }
@@ -70,6 +72,5 @@ justify-content: space-between;
 }
 
 .theme__colors.grid__col--4{
-
   flex-basis:32%;
 }
