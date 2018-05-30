@@ -1,0 +1,24 @@
+.grid__col--12{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  @include bg-colors($ui-colors);
+}
+
+[class^="btn--"] {
+  @extend %border;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.btn--default{
+  background-color: $turquoise;
+
+  @include mq(medium){
+
+
+}
+}

@@ -1,0 +1,37 @@
+@mixin bg-colors($map){
+  @each $theme, $color in $map {
+    .btn--#{$theme} {
+      background-color: $color;
+    }
+  }
+}
+
+@mixin grid-colors($map){
+  @each $theme, $color in $map {
+    &__#{$theme} {
+      background-color: $color;
+
+    }
+  }
+}
+
+//media queries
+
+
+  @mixin mq($break){
+    @if $break=="medium"{
+    @media(min-width: $breakpoint-md) {
+      @content;
+    }
+  }
+
+@else if $break=="large"{
+  @media(min-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+@else {
+  @error "No value! '#{$break}'."
+}
+}

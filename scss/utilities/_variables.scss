@@ -1,0 +1,80 @@
+//font colors
+
+$color-text-base   : #717D7E;
+$color-text-darker : #4D5656;
+$color-text-lighter: #A6ACAF;
+
+//colors
+
+$turquoise      : #3EDAB5;
+$light-blue     : #61D8ED;
+$light-turquoise: #61EDC7;
+$curious-blue   : #2FA0D0;
+$Spray          :#77D7EE;
+$lavender       :#DB91E3;
+$pastel-green   :#78DD8A;
+$burning-sand   : #DD8178;
+$Copperfield    : #D98659;
+
+//buttons
+
+$default-color          : #61D8ED;
+$success-color-shamrock : #3DD181;
+$error-color-valencia   : #DA3E44;
+$warning-color-redDamask: #DA703E;
+$info-color-purpleHeart : #873EDA;
+
+
+//ui colors - map
+
+$ui-colors: (
+default: $default-color,
+success: $success-color-shamrock,
+error  : $error-color-valencia,
+warning: $warning-color-redDamask,
+info   : $info-color-purpleHeart
+);
+
+//font stacks
+
+$font-url-google: 'https://fonts.googleapis.com/css?family=Asap": 400,500,600';
+$stack-sans-serif: 'Asap', sans-serif;
+
+//font-weight
+
+$font-weight-lighter: 300;
+$font-weight-thin: 100;
+$font-weight-bold: 700;
+
+//border radius
+
+$br: 5px;
+
+//font-size
+
+$base__font-size: 16px;
+
+//grid
+
+$g-col-width: 65px;
+$g-gutter-width: 20px;
+$g-col-count: 15;
+$g-count-max-width: 1400px;
+
+//breakpoints
+
+
+$breakpoint-md: 769px;
+$breakpoint-lg: 1400px;
+
+//grid-colors-map
+
+$grid-colors:(
+  col--12 : $light-turquoise,
+  col--6  : $curious-blue,
+  col--4  : $Spray,
+  col--3  : $lavender,
+  col--5  : $pastel-green,
+  col--7  : $burning-sand,
+  col--8  : $Copperfield
+);

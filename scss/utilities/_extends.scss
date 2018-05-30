@@ -1,0 +1,10 @@
+%border {
+  border-radius: $br;
+  border: none;
+  font-weight: bold;
+}
+ %flex {
+   display: flex;
+   flex-direction:column;
+   flex-wrap: wrap;
+ }
