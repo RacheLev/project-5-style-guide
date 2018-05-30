@@ -1,12 +1,12 @@
-@include mq(medium){
-@for $i from 1 through $g-col-count {
-    $context: g-context($g-col-width, $g-col-count, $g-gutter-width) !global;
-    $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
-    .grid__col--#{$i} {
-      width: 100%($target / $context);
-    }
-  }
-}
+// @include mq(medium){
+// @for $i from 1 through $g-col-count {
+//     $context: g-context($g-col-width, $g-col-count, $g-gutter-width) !global;
+//     $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+//     .grid__col--#{$i} {
+//       width: 100%($target / $context);
+//     }
+//   }
+// }
 
 [class^="grid__col--"] {
  color: $color-text-darker;
@@ -21,13 +21,11 @@
   cursor: pointer;
   font-weight: $font-weight-bold;
   margin-top: em(25px);
-  @include mq(medium){
-    width: auto;
-
+  @include mq(medium) {
+  width: auto;
   }
-
 }
-.theme__colors.grid{
+.theme__colors.grid {
 @include grid-colors($grid-colors);
 }
 
@@ -35,40 +33,36 @@
   @include mq(medium){
   display: flex;
 justify-content: space-between;
-}
-
+ }
 }
 .grid__col--8{
   @include mq(medium){
   width: 60%;
-}
+ }
 }
 .theme__colors.grid__col--12{
   flex-basis: 100%;
-
 }
+
 .theme__colors.centered.grid__col--7{
   flex-basis: 50%;
 }
 
-
 .theme__colors.grid__col--6{
   flex-basis: 49%;
-
 }
 
 .theme__colors.grid__col--3{
   flex-basis: 24%;
-
 }
+
 .theme__colors.grid__col--7 {
   flex-basis: 25%;
 }
+
 .theme__colors.grid__col--8{
   flex-basis: 49%;
-
 }
-
 
 .theme__colors.grid__col--5{
 

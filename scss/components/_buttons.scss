@@ -1,4 +1,4 @@
-.grid__col--12{
+.grid__col--12 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -12,13 +12,10 @@
   cursor: pointer;
   text-transform: uppercase;
   text-align: center;
-
 }
+
 .btn--default{
   background-color: $turquoise;
-
   @include mq(medium){
-
-
-}
+ }
 }

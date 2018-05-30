@@ -92,51 +92,6 @@ input {
 .form__label--hidden {
   display: none; }
 
-@media (min-width: 769px) {
-  .grid__col--1 {
-    width: 100% 65px/g-context(65px, 15, 20px); }
-
-  .grid__col--2 {
-    width: 100% 150px/g-context(65px, 15, 20px); }
-
-  .grid__col--3 {
-    width: 100% 235px/g-context(65px, 15, 20px); }
-
-  .grid__col--4 {
-    width: 100% 320px/g-context(65px, 15, 20px); }
-
-  .grid__col--5 {
-    width: 100% 405px/g-context(65px, 15, 20px); }
-
-  .grid__col--6 {
-    width: 100% 490px/g-context(65px, 15, 20px); }
-
-  .grid__col--7 {
-    width: 100% 575px/g-context(65px, 15, 20px); }
-
-  .grid__col--8 {
-    width: 100% 660px/g-context(65px, 15, 20px); }
-
-  .grid__col--9 {
-    width: 100% 745px/g-context(65px, 15, 20px); }
-
-  .grid__col--10 {
-    width: 100% 830px/g-context(65px, 15, 20px); }
-
-  .grid__col--11 {
-    width: 100% 915px/g-context(65px, 15, 20px); }
-
-  .grid__col--12 {
-    width: 100% 1000px/g-context(65px, 15, 20px); }
-
-  .grid__col--13 {
-    width: 100% 1085px/g-context(65px, 15, 20px); }
-
-  .grid__col--14 {
-    width: 100% 1170px/g-context(65px, 15, 20px); }
-
-  .grid__col--15 {
-    width: 100% 1255px/g-context(65px, 15, 20px); } }
 [class^="grid__col--"] {
   color: #4D5656; }
 

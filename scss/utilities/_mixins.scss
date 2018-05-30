@@ -17,7 +17,6 @@
 
 //media queries
 
-
   @mixin mq($break){
     @if $break=="medium"{
     @media(min-width: $breakpoint-md) {
@@ -33,5 +32,5 @@
 
 @else {
   @error "No value! '#{$break}'."
-}
+ }
 }
