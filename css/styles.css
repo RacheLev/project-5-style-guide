@@ -9,6 +9,10 @@
   flex-direction: column;
   flex-wrap: wrap; }
 
+.img--logo, .img--avatar, .img--frame {
+  display: block;
+  margin: auto; }
+
 * {
   box-sizing: border-box; }
 
@@ -156,19 +160,13 @@ input {
   flex-basis: 32%; }
 
 .img--logo {
-  display: block;
-  margin: auto;
   margin-top: 2.5em; }
 
 .img--avatar {
-  display: block;
-  margin: auto;
   margin-top: 25px; }
 
 .img--frame {
   width: 99%;
-  display: block;
-  margin: auto;
   margin-top: 3em;
   border: 1px #A6ACAF solid;
   padding: 12px; }
@@ -188,11 +186,11 @@ nav a {
   text-decoration: none;
   text-align: center;
   border-radius: 5px;
-  margin-bottom: 10px;
-  font-size: 20px; }
+  margin-bottom: 0.625em;
+  font-size: 1.25em; }
   nav a:hover {
     background-color: #3EDAB5;
-    color: white; }
+    color: #fff; }
 
 ul, menu, dir {
   padding: 0; }

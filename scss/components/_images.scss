@@ -1,19 +1,16 @@
 .img--logo {
-display: block;
-margin: auto;
+@extend %dis;
 margin-top: 2.5em;
 }
 
 .img--avatar {
-  display: block;
-  margin: auto;
+  @extend %dis;
   margin-top: 25px;
 }
 
 .img--frame {
   width: 99%;
-  display: block;
-  margin: auto;
+  @extend %dis;
   margin-top: 3em;
   border: 1px $color-text-lighter solid;
   padding: 12px;
