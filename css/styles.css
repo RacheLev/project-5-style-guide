@@ -433,7 +433,7 @@ form .btn--default {
   justify-content: center; }
 
 .img--logo {
-  margin-top: 2.5em; }
+  margin-top: 2.8em; }
 
 .img--avatar {
   margin-top: 25px; }
@@ -453,7 +453,6 @@ form .btn--default {
 
 .nav {
   margin-top: 3em;
-  margin-bottom: 6em;
   list-style-type: none; }
   @media (min-width: 769px) {
     .nav {
@@ -478,6 +477,10 @@ form .btn--default {
   width: 85%;
   margin: 0 auto;
   font-family: "Asap", sans-serif; }
+  @media (min-width: 1400px) {
+    .container {
+      margin: auto;
+      max-width: 1200px; } }
 
 .headline--secondary {
   color: #A6ACAF;

@@ -2,6 +2,10 @@
   width: 85%;
   margin: 0 auto;
   font-family: $stack-sans-serif;
+  @include mq(large) {
+    margin: auto;
+max-width: 1200px;
+}
 }
 
 .headline--secondary {

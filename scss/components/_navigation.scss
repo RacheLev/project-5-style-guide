@@ -1,7 +1,8 @@
 
 .nav {
   margin-top: 3em;
-  margin-bottom: 6em;
+  //margin-bottom: 6em;
+  //margin: auto;
   list-style-type: none;
   @include mq(medium){
   display:flex;
