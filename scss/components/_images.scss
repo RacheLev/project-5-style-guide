@@ -19,5 +19,6 @@ margin-top: 3em;
   padding: 12px;
   @include mq(medium){
     margin: 1em;
+    width:90%;
 }
 }

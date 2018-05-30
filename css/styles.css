@@ -173,7 +173,8 @@ input {
   padding: 12px; }
   @media (min-width: 769px) {
     .img--frame {
-      margin: 1em; } }
+      margin: 1em;
+      width: 90%; } }
 
 nav ul {
   list-style-type: none;
