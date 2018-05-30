@@ -171,6 +171,10 @@ input {
     display: flex;
     justify-content: space-between; } }
 
+@media (min-width: 769px) {
+  .grid__col--8 {
+    width: 60%; } }
+
 .theme__colors.grid__col--12 {
   flex-basis: 100%; }
 
