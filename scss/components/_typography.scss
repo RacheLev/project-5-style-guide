@@ -32,3 +32,9 @@
   border-radius: $br;
   margin-bottom: 0;
 }
+
+.card{
+  @include mq(medium) {
+  width: 80%;
+}
+}

@@ -12,12 +12,14 @@
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
-  text-align: center;
+  align-items: center;
 }
 
 .btn--default{
   background-color: $turquoise;
+  width: 100%;
+  align-items: center;
+}
   @include mq(medium){
 
- }
 }
