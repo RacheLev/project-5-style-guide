@@ -349,9 +349,10 @@ body {
   align-items: center; }
 
 .btn--default {
-  background-color: #3EDAB5;
-  width: 100%;
-  align-items: center; }
+  background-color: #3EDAB5; }
+
+form .btn--default {
+  width: 100%; }
 
 input {
   border: none;
@@ -438,10 +439,13 @@ input {
 
 .img--avatar {
   margin-top: 25px; }
+  @media (min-width: 769px) {
+    .img--avatar {
+      width: 50%; } }
 
 .img--frame {
   width: 99%;
-  margin-top: 3em;
+  margin: 3em 0;
   border: 1px #A6ACAF solid;
   padding: 12px; }
   @media (min-width: 769px) {

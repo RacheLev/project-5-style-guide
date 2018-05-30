@@ -6,12 +6,15 @@ margin-top: 2.5em;
 .img--avatar {
   @extend %dis;
   margin-top: 25px;
+  @include mq(medium){
+    width:50%;
+ }
 }
 
 .img--frame {
   width: 99%;
   @extend %dis;
-  margin-top: 3em;
+  margin: 3em 0;
   border: 1px $color-text-lighter solid;
   padding: 12px;
   @include mq(medium){
