@@ -15,14 +15,7 @@
   align-items: center;
 }
 
-.btn--default{
-  background-color: $turquoise;
-  // width: 100%;
-  // align-items: center;
-}
-  @include mq(medium){
-
-}
 form .btn--default {
+  background-color: $turquoise;
     width: 100%;
 }
