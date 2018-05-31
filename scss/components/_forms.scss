@@ -1,16 +1,18 @@
-.form__input {
-  border: none;
-  border-bottom: em(5px) $turquoise solid;
-  display: block;
-  padding: em(20px) em(10px);
-  margin: 0 auto;
-	font-size: 0.95em;
-  text-align: left;
-  resize: none;
-  width: 90%;
-  font-weight: $font-weight-bold;
-}
+.form {
+  .form__input {
+    border: none;
+    border-bottom: em(5px) $turquoise solid;
+    display: block;
+    padding: em(20px) em(10px);
+    margin: 0 auto;
+  	font-size: 0.95em;
+    text-align: left;
+    resize: none;
+    width: 90%;
+    font-weight: $font-weight-bold;
+  }
 
-.form__label--hidden{
-  display: none;
+  .form__label--hidden{
+    display: none;
+  }
 }

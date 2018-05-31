@@ -1,19 +1,11 @@
-.container{
-  width: 85%;
-  margin: 0 auto;
-  font-family: $stack-sans-serif;
-  @include mq(large) {
-    margin: auto;
-max-width: 1200px;
-}
-}
+
 
 .headline--secondary {
-    color: $color-text-lighter;
-    font-size: em(17px);
-    font-weight: $font-weight-lighter;
-    margin-top: em(60px);
-    margin-bottom: em(40px);
+  color: $color-text-lighter;
+  font-size: em(17px);
+  font-weight: $font-weight-lighter;
+  margin-top: em(60px);
+  margin-bottom: em(40px);
 }
 
 .headline--primary {
@@ -40,5 +32,5 @@ max-width: 1200px;
 .card{
   @include mq(medium) {
   width: 80%;
-}
+  }
 }

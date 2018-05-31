@@ -1,7 +1,5 @@
 .grid__col--12 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  @include flex;
   width: 90%;
   margin: auto;
   @include bg-colors($ui-colors);
