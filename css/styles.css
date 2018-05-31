@@ -355,42 +355,42 @@ form .btn--default {
 .form .form__label--hidden {
   display: none; }
 
-@media (min-width: 769px) {
-  .grid__col--1 {
-    width: 100% 65px/g-context(65px, 12, 20px); }
+.grid__col--1 {
+  width: 100% 0.065; }
 
-  .grid__col--2 {
-    width: 100% 150px/g-context(65px, 12, 20px); }
+.grid__col--2 {
+  width: 100% 0.15; }
 
-  .grid__col--3 {
-    width: 100% 235px/g-context(65px, 12, 20px); }
+.grid__col--3 {
+  width: 100% 0.235; }
 
-  .grid__col--4 {
-    width: 100% 320px/g-context(65px, 12, 20px); }
+.grid__col--4 {
+  width: 100% 0.32; }
 
-  .grid__col--5 {
-    width: 100% 405px/g-context(65px, 12, 20px); }
+.grid__col--5 {
+  width: 100% 0.405; }
 
-  .grid__col--6 {
-    width: 100% 490px/g-context(65px, 12, 20px); }
+.grid__col--6 {
+  width: 100% 0.49; }
 
-  .grid__col--7 {
-    width: 100% 575px/g-context(65px, 12, 20px); }
+.grid__col--7 {
+  width: 100% 0.575; }
 
-  .grid__col--8 {
-    width: 100% 660px/g-context(65px, 12, 20px); }
+.grid__col--8 {
+  width: 100% 0.66; }
 
-  .grid__col--9 {
-    width: 100% 745px/g-context(65px, 12, 20px); }
+.grid__col--9 {
+  width: 100% 0.745; }
 
-  .grid__col--10 {
-    width: 100% 830px/g-context(65px, 12, 20px); }
+.grid__col--10 {
+  width: 100% 0.83; }
 
-  .grid__col--11 {
-    width: 100% 915px/g-context(65px, 12, 20px); }
+.grid__col--11 {
+  width: 100% 0.915; }
 
-  .grid__col--12 {
-    width: 100% 1000px/g-context(65px, 12, 20px); } }
+.grid__col--12 {
+  width: 100% 1; }
+
 .grid__row {
   margin-bottom: 5em; }
   @media (min-width: 769px) {
