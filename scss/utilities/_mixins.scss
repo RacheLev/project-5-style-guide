@@ -17,18 +17,8 @@
   }
 }
 
-//flexbox mixins
+//flexbox mixin
 
-// @mixin flex {
-// display: flex;
-// flex-wrap: wrap;
-// justify-content: space-between;
-// }
-// @mixin flex2 {
-//   display:flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-// }
 @mixin flex(
 $disp: flex,
 $dir: null,
@@ -39,6 +29,7 @@ $just: null){
   flex-wrap: $wrap;
   justify-content: $just;
 }
+
 //media queries
 
   @mixin mq($break){
