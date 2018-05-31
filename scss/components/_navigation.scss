@@ -4,7 +4,7 @@
   padding-left: 0;
   list-style-type: none;
   @include mq(medium){
-  @include flex2;
+  @include flex($dir: row, $just: space-between);
   margin-top: 4em;
   width: 80%;
 }
@@ -21,9 +21,9 @@
             &:hover {
                 background-color: $turquoise;
                 color: #fff;
-        }
+              }
+       }
     }
-  }
 }
   // ul, menu, dir {
   //   padding: 0;

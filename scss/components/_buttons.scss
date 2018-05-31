@@ -1,5 +1,5 @@
 .grid__col--12 {
-  @include flex;
+  @include flex($wrap: wrap, $just: space-between);
   width: 90%;
   margin: auto;
   @include bg-colors($ui-colors);

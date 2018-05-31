@@ -1,3 +1,5 @@
+//map colors
+
 @mixin bg-colors($map){
   @each $theme, $color in $map {
     .btn--#{$theme} {
@@ -15,18 +17,27 @@
   }
 }
 
-//flexbox
+//flexbox mixins
 
-@mixin flex {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-@mixin flex2 {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
+// @mixin flex {
+// display: flex;
+// flex-wrap: wrap;
+// justify-content: space-between;
+// }
+// @mixin flex2 {
+//   display:flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
+@mixin flex(
+$disp: flex,
+$dir: null,
+$wrap: null,
+$just: null){
+  display: $disp;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  justify-content: $just;
 }
 //media queries
 
@@ -44,6 +55,6 @@ justify-content: space-between;
 }
 
 @else {
-  @error "No value! '#{$break}'."
+  @error "No value for '#{$break}'."
  }
 }

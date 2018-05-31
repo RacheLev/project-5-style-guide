@@ -8,21 +8,10 @@
 //   }
 // }
 
-
-.container {
-  width: 85%;
-  margin: 0 auto;
-  font-family: $stack-sans-serif;
-  @include mq(large) {
-    margin: auto;
-    max-width: 1200px;
-  }
-}
-
 .grid__row{
   margin-bottom: 5em;
   @include mq(medium){
-  @include flex2;
+  @include flex($dir: row, $just: space-between);
   margin-bottom: 0;
   }
 }
