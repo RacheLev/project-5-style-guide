@@ -362,7 +362,27 @@ form .btn--default {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin-bottom: 0; } }
+      margin-bottom: 0; }
+      .grid__row .grid__col--3 {
+        width: 23.5%; }
+      .grid__row .grid__col--4 {
+        width: 32%; }
+      .grid__row .grid__col--5 {
+        width: 40.5%; }
+      .grid__row .grid__col--6 {
+        width: 49%; }
+      .grid__row .grid__col--7 {
+        width: 57.5%; }
+      .grid__row .grid__col--8 {
+        width: 66%; }
+      .grid__row .grid__col--9 {
+        width: 74.5%; }
+      .grid__row .grid__col--10 {
+        width: 83%; }
+      .grid__row .grid__col--11 {
+        width: 91.5%; }
+      .grid__row .grid__col--12 {
+        width: 100%; } }
 
 [class^="grid__col--"] {
   color: #4D5656; }
@@ -392,30 +412,6 @@ form .btn--default {
   background-color: #DD8178; }
 .theme__colors.grid__col--8 {
   background-color: #D98659; }
-
-.grid__col--12 {
-  flex-basis: 100%; }
-
-.grid__col--6 {
-  flex-basis: 49.5%; }
-
-.grid__col--4 {
-  flex-basis: 34%; }
-
-.grid__col--3 {
-  flex-basis: 24%; }
-
-.grid__col--5 {
-  flex-basis: 40%; }
-
-.grid__col--7 {
-  flex-basis: 59%; }
-
-.grid__col--8 {
-  flex-basis: 70%; }
-
-.grid__col--4:last-of-type {
-  flex-basis: 29%; }
 
 .grid__col--7.theme__colors.centered {
   margin-left: auto;
